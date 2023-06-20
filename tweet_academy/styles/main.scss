@@ -1,0 +1,54 @@
+$primary: #76519b;
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+.alert {
+  display: inline-block;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.messageDate {
+  display: none;
+}
+
+.message:hover {
+  .messageDate {
+    display: inline-block;
+  }
+}
+
+.color_header {
+  background-color: rgb(44, 43, 43);
+  border-radius: var(--bs-border-radius);
+  box-shadow: 6px 6px 6px black;
+
+}
+
+.settings-title {
+  margin-left: 300px;
+}
+
+.settings-form {
+  height: 700px;
+}
+
+.bloc_sign_in {
+  border: 2px solid rgb(77, 74, 74);
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+//
+//
+//* {
+//  outline: 1px red solid
+//}
